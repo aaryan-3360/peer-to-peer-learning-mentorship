@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+    color: #333;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0;
+    padding: 20px;
+  }
+
+  #selectdiv{
+    background-color: white;
+    color: black;
+    font-size: 28px;
+    font-weight: 500;
+    padding: 10px;
+    box-shadow:0px 0px 50px rgba(0,0,0,0.2); 
+    border-radius: 10px;
+  }
+  #selectdiv #roleSelect{
+    background-color: rgb(211, 221, 240);
+    color: black;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .container{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 60px;
+    margin-top: 20px;
+    padding: 30px 60px;
+  }
+
+  .left-section{
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .right-section{
+    flex: 1.5;
+    max-width: 600px;
+
+  }
+  h1 {
+    color: black;
+    margin-bottom: 30px;
+  }
+  
+  #video-section {
+    margin-bottom: 20px;
+  }
+  video {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(8, 5, 5, 0.2);
+  }
+  #videoUpload{
+    width: 300px;
+    height: auto;
+    padding: 5px 5px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #cccc;
+    border-radius: 8px;
+  }
+  #upload-form{
+    background: #fff;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 12px;
+    max-width: 500px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.2);
+    display: none;
+  }
+  
+  #comment-box,
+  #comments {
+    font-weight: 600;
+    background: #fff;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 12px;
+    max-width: 600px;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.2);
+    display: none;
+  }
+
+  #commentInput{
+    width: 250px;
+    height: auto;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #cccc;
+    border-radius: 8px;
+  }
+  button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover{
+    background-color: #0056b3;
+  }
+
+  #commentList{
+    text-align: left;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+
+  #commentList div{
+    padding: 8px;
+    border-bottom: 1px solid #eeee;
+  }
+
+  
+/* Theme Toggle Button */
+#themeToggleBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#themeToggleBtn:hover {
+  background-color: #007bff;
+}
+
+/* Dark Theme */
+body.dark-theme {
+  background-color: #333;
+  color:black;
+}
+
+body.dark-theme button {
+  background-color: #007BFF;
+}
+
+body.dark-theme #previewText {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+body.dark-theme #themeToggleBtn {
+  background-color: #f39c12;
+}
+body.dark-theme #comment-box,
+body.dark-theme #comments,
+body.dark-theme #upload-form{
+    background-color: #555;
+    color: whitesmoke;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+    border-radius: 10px;
+  }
+
+  body.dark-theme #video-section{
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+    border-radius: 10px;
+  }
+
+  body.dark-theme h1{
+    color: #007BFF;
+  }
+
+  body.dark-theme button:hover{
+    background-color: #0056b3;
+  }
+
+
+
+  @media screen and (max-width:600px) {
+    .container{
+      flex-direction: column;
+      align-items: center;
+    }
+    .left-section,.right-section{
+      max-width: 100%;
+    }
+    h1
+    { 
+      font-size: 1.5rem;
+    }
+    button{
+      width: 100%;
+    }
+    #themeToggleBtn{
+      bottom: 20px;
+      right: 10px;
+      font-size: 1.2rem;
+    }
+    #selectdiv{
+      top: 20px;
+      right: 10px;
+      font-size: 1.2rem;
+    }
+    
+  }
+  
+
+  

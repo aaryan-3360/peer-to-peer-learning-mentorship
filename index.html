@@ -1,0 +1,69 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VidMentor: Video Feedback & Mentorship</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>VidMentor: Video Feedback & Mentorship</h1>
+    <!--select role-->
+    <div id="selectdiv">
+      <label for="roleSelect">Select your role:</label>
+      <select id="roleSelect">
+        <option value="student">Student</option>
+        <option value="instructor">Instructor</option>
+      </select>
+    </div>
+    <!--togglebutton-->
+    <button id="themeToggleBtn">🌙</button>
+    <div class="container">
+      <div class="left-section">
+        <div id="video-section">
+          <video id="videoPlayer" controls>
+            <source
+              id="videoSource"
+              src="https://cdn.screenpipe.io/sample/video.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <div id="upload-form">
+          <label for="videoUpload">Choose Video:</label>
+          <input
+            type="file"
+            id="videoUpload"
+            accept="video*/"
+            title="Upload a video file"
+          />
+          <button onclick="uploadVideo()">Upload & Stream</button>
+        </div>
+      </div>
+
+      <div class="right-section">
+        <div id="comment-box">
+          <input
+            type="text"
+            id="commentInput"
+            placeholder="Write feedback..."
+          />
+          <button onclick="addComment()">Add</button>
+        </div>
+        <div id="comments">
+          <h2>Feedback Comments</h2>
+          <div id="commentList"></div>
+          <div id="btn">
+            <button id="clearbtn">Clear All</button>
+            <button onclick="downloadfeedback()">Download Feedback</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
