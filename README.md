@@ -51,8 +51,8 @@ Submitted for **PS-8: Reimagine Peer-to-Peer Learning & Mentorship** in **Hackha
 
 ## Author
 
-- **[Aaryan]**
-- 4th Semester Student | Learning Web Development
+- **Aaryan**
+- College Student | Learning Web Development
 
 ---
 
