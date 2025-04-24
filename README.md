@@ -48,6 +48,13 @@ It helps **Instructors** share videos and receive timestamped feedback from **St
 Submitted for **PS-8: Reimagine Peer-to-Peer Learning & Mentorship** in **Hackhazards**.
 
 ---
+# Project Name
+
+## Demo Video
+
+You can watch the demo of the project here:
+
+[Watch Demo on YouTube](https://www.youtube.com/watch?v=QwQi-AoVQiM)
 
 ## Author
 
