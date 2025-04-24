@@ -15,6 +15,7 @@ It helps **Instructors** share videos and receive timestamped feedback from **St
 - **Submit Feedback** (Student)
 - **Download Feedback** (Instructor)
 - **Clear All Feedback** (Instructor)
+- **Remove Feedback button**(both)
 - **Dark Mode & Light Mode Toggle**
 - **Role-Based Views**
   - Instructor: Upload, view, download, clear feedback
