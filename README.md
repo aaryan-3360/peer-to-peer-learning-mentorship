@@ -74,7 +74,7 @@ You can watch the demo of the project here:
 
 Free to use and improve. Happy Learning!
 
-h2>Connect with Me</h2>
+<h2>Connect with Me</h2>
 <p>
     <a href="https://instagram.com/aaryan_kamboj123">
         <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white">
